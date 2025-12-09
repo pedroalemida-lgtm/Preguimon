@@ -1,0 +1,163 @@
+
+header.cabecalho-inseto {
+    background-color: var(--inseto);
+}
+
+.botao-nav-inseto {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.cabecalho-inseto, 
+.botao-nav-inseto.ativo {
+    color: var(--inseto);
+}
+
+
+.botao-nav-inseto:hover,
+.botao-nav-inseto.ativo {
+    background-color: white;  
+    color: var(--inseto);
+
+}
+
+.container-pokemon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+.cartao-pokemon {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    width: 280px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.cartao-pokemon:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.cabecalho-cartao {
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.container-img-poke {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-pokemon {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.nome-pokemon {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+.corpo-cartao {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.linha-estatistica {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.rotulo-estatistica {
+    font-weight: 600;
+    color: #777;
+ }
+.valor-estatistica {
+    font-weight: bold;
+    color: #333;
+    text-transform: capitalize;
+ }
+
+.lista-habilidades {
+    display: flex;
+    gap: 5px;
+    justify-content: end;
+}
+
+.tag-habilidade {
+    background: #eee;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 0.75rem;
+}
+
+.barras-status {
+     margin-top: 10px;
+    }
+.container-barra {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+}
+.rotulo-barra {
+    width: 60px;
+    font-weight: bold;
+ }
+
+.fundo-barra {
+    flex: 1;
+    background: #e0e0e0;
+    height: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.barra-preenchimento {
+    height: 100%;
+    border-radius: 4px;
+ }
+
+ 
+.cabecalho-cartao {
+    background: linear-gradient(135deg, #B6C15A, #A6B91A);
+}
+.barra-preenchimento {
+     background-color: #A6B91A;
+}
+
+.carregando {
+     text-align: center;
+    font-size: 1.5rem; color: #666;
+     margin-top: 3rem;
+   
+}
