@@ -97,18 +97,6 @@ nav {
     color: var(--header);
 }
 
-.cabecalho-voador .botao-nav.ativo {
-    color: var(--voador);
-}
-
-.cabecalho-psiquico .botao-nav.ativo {
-    color: var(--psiquico);
-}
-
-.cabecalho-inseto .botao-nav.ativo {
-    color: var(--inseto);
-}
-
 
 main {
     flex: 1;

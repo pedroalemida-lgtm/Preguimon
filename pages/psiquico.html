@@ -4,29 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Préguimon - Psíquico</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/assets/css/psiquico.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
     <header class="cabecalho-psiquico">
         <nav>
             <div class="logo">
-                <img src="/Design sem nome.png" alt="logo" width="40" height="40">
+                <img src="/assets/img/pokebola.png" alt="logo" width="40" height="40">
                 Préguimon
             </div>
             <ul class="links-navegacao">
-                <li><a href="pages/Grupo3.html" class="botao-nav">Grupo</a></li>
-                <li><a href="index.html" class="botao-nav">Início</a></li>
-                <li><a href="solo.html" class="botao-nav">Solo</a></li>
-                <li><a href="voador.html" class="botao-nav">Voador</a></li>
-                <li><a href="psiquico.html" class="botao-nav ativo">Psíquico</a></li>
-                <li><a href="inseto.html" class="botao-nav">Inseto</a></li>
+                <li><a href="pages/Grupo3.html" class="botao-nav-psiquico">Grupo</a></li>
+                <li><a href="/index.html" class="botao-nav-psiquico">Início</a></li>
+                <li><a href="/pages/solo.html" class="botao-nav-psiquico">Solo</a></li>
+                <li><a href="/pages/voador.html" class="botao-nav-psiquico">Voador</a></li>
+                <li><a href="/pages/psiquico.html" class="botao-nav-psiquico ativo">Psíquico</a></li>
+                <li><a href="/pages/inseto.html" class="botao-nav-psiquico">Inseto</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="secao-pagina">
-            <h2 style="border-left: 5px solid #f95587; padding-left: 10px; margin-bottom: 20px;">
+        <section class="secao-pagina-psiquico">
+            <h2>
                 Tipo: Psíquico (Psychic)
             </h2>
             <div id="container-psiquico" class="container-pokemon"></div>
@@ -49,9 +50,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
-    <script>
-        buscarPokemonPorTipo('psychic', 'container-psiquico');
-    </script>
+    <script src="/assets/script.js"></script>
 </body>
 </html>

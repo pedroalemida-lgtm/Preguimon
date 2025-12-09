@@ -33,10 +33,6 @@ header.cabecalho-solo {
 
 }
 
-.btn-solo {
-    background-color: var(--solo)
-}
-
 
 .container-pokemon {
     display: flex;
@@ -133,6 +129,7 @@ header.cabecalho-solo {
 .barras-status {
      margin-top: 10px; 
     }
+
 .container-barra {
     display: flex;
     align-items: center;
