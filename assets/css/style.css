@@ -27,7 +27,7 @@ header {
     top: 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
-    z-index: 1;
+    z-index: 1000;
 }
 
 header.cabecalho-padrao {
@@ -284,7 +284,6 @@ main {
 
 .secao-rodape {
     flex: 1;
-    min-width: 250px;
 }
 
 .secao-rodape h3 {
@@ -296,9 +295,8 @@ main {
 
 .secao-rodape p {
     font-size: 0.95rem;
-    line-height: 1.6;
     color: #bdc3c7;
-    text-decoration: none;
+    
 }
 
 .secao-rodape ul {
@@ -312,7 +310,12 @@ main {
 .secao-rodape ul li a {
     color: #bdc3c7;
     text-decoration: none;
-    transition: color 0.3s ease, padding-left 0.3s ease;
+}
+
+.secao-rodape a{
+    font-size: larger;
+    text-decoration: none;
+    color:red;
 }
 
 
