@@ -266,6 +266,9 @@ main {
 .btn-psiquico {
     background-color: var(--psiquico)
 }
+.btn-solo {
+    background-color: var(--solo)
+}
 
 .texto {
     margin-top: 20px;
