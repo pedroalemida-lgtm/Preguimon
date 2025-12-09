@@ -71,7 +71,7 @@ function createCardHTML(data) {
   const atk = stats["attack"] || 0;
   const def = stats["defense"] || 0;
 
-  // --- CORREÇÃO DE COR AQUI ---
+
   // Se temos um contexto de página (ex: estamos na página Ground), usamos essa cor.
   // Caso contrário (ex: página home ou busca genérica), usamos o primeiro tipo do Pokémon.
   let mainType;
@@ -85,8 +85,7 @@ function createCardHTML(data) {
   }
  
   const color = typeColors[mainType] || "#777";
-  // -----------------------------
-
+  
   const typesHtml = data.types
     .map((t) => {
       const tName = t.type.name;
