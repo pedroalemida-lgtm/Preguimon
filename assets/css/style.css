@@ -34,10 +34,6 @@ header.cabecalho-padrao {
     background-color: var(--header);
 }
 
-header.cabecalho-solo {
-    background-color: var(--solo);
-}
-
 header.cabecalho-voador {
     background-color: var(--voador);
 }
@@ -99,10 +95,6 @@ nav {
 
 .cabecalho-padrao .botao-nav.ativo {
     color: var(--header);
-}
-
-.cabecalho-solo .botao-nav.ativo {
-    color: var(--solo);
 }
 
 .cabecalho-voador .botao-nav.ativo {
@@ -261,10 +253,6 @@ main {
 .botao-tipo:hover {
     transform: scale(1.15);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-}
-
-.btn-solo {
-    background-color: var(--solo)
 }
 
 .btn-inseto {
