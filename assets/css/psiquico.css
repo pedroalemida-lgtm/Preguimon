@@ -13,7 +13,6 @@ header.cabecalho-psiquico {
     font-weight: 600;
     text-decoration: none;
     transition: all 0.3s ease;
-    display: inline-block;
     cursor: pointer;
 }
 
@@ -148,13 +147,7 @@ header.cabecalho-psiquico {
     border-radius: 4px;
  }
 
- 
-.cabecalho-cartao {
-    background: linear-gradient(135deg, #F04A92, #E3366D);
-}
-.barra-preenchimento {
-     background-color: #E3366D;
-}
+
 
 .carregando {
      text-align: center;

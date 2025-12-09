@@ -147,13 +147,7 @@ header.cabecalho-inseto {
     border-radius: 4px;
  }
 
- 
-.cabecalho-cartao {
-    background: linear-gradient(135deg, #B6C15A, #A6B91A);
-}
-.barra-preenchimento {
-     background-color: #A6B91A;
-}
+
 
 .carregando {
      text-align: center;

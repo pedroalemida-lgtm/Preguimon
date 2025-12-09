@@ -149,14 +149,6 @@ header.cabecalho-solo {
     border-radius: 4px;
  }
 
- 
-.cabecalho-cartao { 
-    background: linear-gradient(135deg, #e2bf65, #d9ad42); 
-}
-.barra-preenchimento {
-     background-color: #e2bf65; 
-}
-
 .carregando {
      text-align: center; 
     font-size: 1.5rem; color: #666;

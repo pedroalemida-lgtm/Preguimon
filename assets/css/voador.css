@@ -147,14 +147,6 @@ header.cabecalho-voador {
     border-radius: 4px;
  }
 
- 
-.cabecalho-cartao {
-    background: linear-gradient(135deg, #BBA9F3, #A890FE);
-}
-.barra-preenchimento {
-     background-color: #A890FE;
-}
-
 .carregando {
      text-align: center;
     font-size: 1.5rem; color: #666;
